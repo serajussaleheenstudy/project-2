@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Delivary Web</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1150px)" href="css/phone.css">
   </head>
   <body>
     <nav id="navbar">
@@ -14,10 +15,10 @@
       </div>
 
       <ul>
-        <li class="item"><a>Home </a></li>
-        <li class="item"><a>Services</a></li>
-        <li class="item"><a>About Us</a></li>
-        <li class="item"><a>Contact Us</a></li>
+        <li class="item"><a href="#home" >Home </a></li>
+        <li class="item"><a href="#services" >Services</a></li>
+        <li class="item"><a href="#client-section" >Clients</a></li>
+        <li class="item"><a href="#contact" >Contact Us</a></li>
       </ul>
     </nav>
 
@@ -76,7 +77,8 @@
           <img src="images/logo2.png" alt="" />
           <img src="images/logo3.png" alt="" />
           <img src="images/logo5.png" alt="" />
-          <img src="images/logo6.png" alt="" />
+          <img id="img" src="images/logo6.png" alt="" />
+          <img id="img" src="images/logo7.png" alt="" />
         </div>
       </div>
     </section>
@@ -101,6 +103,7 @@
                     <label for="name">Message: </label>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="What's on your mind..."></textarea>
                 </div>
+                <button class="btn1" type="submit">Submit</button>
             </form>
         </div>
     </section>
